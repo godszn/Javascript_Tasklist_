@@ -1,0 +1,120 @@
+
+    .colours {
+        color: #374151;
+        color: #1F2937;
+        color: #111827;
+        color: #FFF;
+        color: #EC4899;
+        color: #8B5Cf6;
+        color: #687280;
+    }
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'fira sans' , sans-serif;
+    }
+    
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #374151;
+    color:#FFF ;
+ }
+  .header1 {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header1 h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #687280;
+    margin-bottom: 1rem;
+  }
+  .form {
+    display: flex;
+  }
+  input , button {
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+  }
+  #inputfield {
+    flex:  1 1 0%;
+    background-color: #1F2937;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+  }
+  #inputfield::placeholder {
+    color: #374151;
+  }
+  #addbtn { 
+    color: #EC4899;
+    background-image: linear-gradient(to right, #EC4899, #8B5Cf6);
+    font-weight: 700;
+    font-size: 1.25rem;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  .Task-lists {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .editbtn {
+    color: #EC4899;
+    background-image: linear-gradient(to right, #EC4899, #8B5Cf6);
+    font-weight: 700;
+    font-size: 1.25rem;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  .delbtn {
+    color: crimson;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding-left: 1rem;
+  }
+  #input-task {
+   flex: 1 1 0%;
+  }
+  #input-task::placeholder {
+    color: #374151;
+  }
+  div h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #687280;
+    margin-bottom: 1rem;
+  }
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #111827;
+  }
+  .lists .text {
+    color: #FFF;
+    font-size: 1.25rem;
+    display: block;
+    width: 100%;
+  }
+  .lists .text:not(:read-only) {
+    color: #EC4899;
+  }
+  .input-styling {
+    color: #FFF;
+  }
